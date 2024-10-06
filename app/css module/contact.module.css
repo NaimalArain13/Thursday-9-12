@@ -1,0 +1,32 @@
+.container {
+  background-color:#f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 1.75rem;
+  }
+  
+  .title {
+    font-size: 3rem; /* equivalent to text-3xl */
+    font-weight: bold;
+  }
+  
+  .links {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .link {
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .link:hover {
+    color: #1d4ed8; /* equivalent to text-blue-700 */
+  }
+  

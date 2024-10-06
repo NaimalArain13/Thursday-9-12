@@ -1,0 +1,56 @@
+/* CommonStyles.module.css */
+
+.contentContainer {
+    background-color: #f0f8ff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap: 1rem;
+    overflow-x: hidden;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1a202c;
+    text-align: center;
+}
+
+.textContainer {
+    max-width: 48rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: #4a5568;
+    text-align: left;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.imageWrapper {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    align-items: center;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+    .gridContainer {
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+}
